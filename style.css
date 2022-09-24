@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: palevioletred;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 2px solid black;
+    height: 200px;
+    background-color:lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    padding: 20px;
+}
+#buttons{
+    padding: 15px;
+}
+#tempvalue{
+    padding: 5px;
+    width: 150px;
+}
+#tempdiff{
+    padding: 5px;
+    width: 150px;
+}
+#subbtn{
+    padding: 8px;
+    cursor: pointer;
+    background-color: wheat;
+    border-style: none;
+    border-radius: 5px;
+}
+#answer{
+    margin-top: 8px;
+    padding: 10px;
+}
